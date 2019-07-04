@@ -11,17 +11,9 @@ keywords = ["signing", "DIDDir"]
 license = "Apache-2.0"
 
 [dependencies]
-base64 = "0.10"
-indicatif = "0.11"
 diddir = { git = "https://github.com/dhuseby/diddir.git" }
-num_cpus = "1.0"
-rayon = "1.0"
-regex = "1"
+hex = "0.3.1"
+indicatif = "0.11.0"
 sha2 = "0.8"
 sodiumoxide = "0.2"
 structopt = "0.2"
-
-[dependencies.serde_json]
-version = "1.0"
-default-features = true
-features = [ "preserve_order" ]
