@@ -129,6 +129,7 @@ the digest value of the file like so:
     ]
   }
 }
+```
 
 This serves as a manifest file for the authentication of the files included in
 the signature.
