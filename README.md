@@ -129,6 +129,7 @@ the digest value of the file like so:
     ]
   }
 }
+```
 
 This serves as a manifest file for the authentication of the files included in
 the signature.
@@ -136,11 +137,11 @@ the signature.
 ## Verify
 
 The `verify` subcommand takes a signature file in either LDS or JWT format and
-attempts to verify the data signed. If the signture file does not contain a
+attempts to verify the data signed. If the signature file does not contain a
 "files" attribute in the "proof" it is assumed that the data that was signed
 will be piped over stdin.
 
-If the the signature file does contain a "files" attribute in the "proof" then
+If the signature file does contain a "files" attribute in the "proof" then
 the listed files will be found and run through the digest algorithm and checked
 to see if they have been modified or not before checking that the signature is
 valid.
