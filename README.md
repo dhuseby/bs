@@ -137,7 +137,7 @@ the signature.
 ## Verify
 
 The `verify` subcommand takes a signature file in either LDS or JWT format and
-attempts to verify the data signed. If the signture file does not contain a
+attempts to verify the data signed. If the signature file does not contain a
 "files" attribute in the "proof" it is assumed that the data that was signed
 will be piped over stdin.
 
